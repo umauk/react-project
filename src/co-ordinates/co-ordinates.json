@@ -1,0 +1,22 @@
+{
+  "locations": [
+    {
+      "id": "1bc1",
+      "name": "alwal",
+      "latitude": 17.5022,
+      "longitude": 78.5089
+    },
+    {
+      "id": "8740",
+      "name": "gachibowli",
+      "latitude": 17.4436,
+      "longitude": 78.352
+    },
+    {
+      "id": "0f8a",
+      "name": "kukatpally",
+      "latitude": 17.4931,
+      "longitude": 78.4054
+    }
+  ]
+}

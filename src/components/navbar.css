@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  height: 64px;
+  background-color: #001529; /* Ant Design's default dark theme */
+}
+
+/* Group logo and hamburger icon */
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+/* Hamburger Icon (three lines) */
+.menu-icon {
+  font-size: 24px;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Logo */
+.logo img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+/* Centered SPACENEST text */
+.center-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+/* Auth buttons on the right */
+.auth-buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  /* Hide auth buttons on smaller screens */
+  .auth-buttons {
+    display: none;
+  }
+
+  .center-text {
+    font-size: 20px;
+  }
+}
+
+
+  
+  
+
+  
+  
+  

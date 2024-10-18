@@ -1,0 +1,22 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}.container{
+    display: flex;
+}
+.left {
+    width: 30%;
+    height: 100vh;
+    border: 1px solid;
+    overflow: scroll;
+}
+.left::-webkit-scrollbar{
+    display: none;
+}
+right { width: 70%;
+     height: 100vh; 
+     border: 1px solid ;
+     z-index: 1;
+    
+    }
